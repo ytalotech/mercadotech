@@ -3,12 +3,12 @@ export default function Footer() {
         <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
             <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
-                    <a href="https://ytalo.dev/" className="flex items-center">
+                    <a href="https://ytalotech.github.io/mercadotech/" className="flex items-center">
                         {/* <img src="#" className="mr-3 h-8" alt="Ytalo Dev Logo" /> */}
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">YtaloDev</span>
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MercadoTech</span>
                     </a>
                 </div>
-                <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-6">
                     <div>
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Recursos</h2>
                         <ul className="text-gray-600 dark:text-gray-400">
@@ -29,18 +29,23 @@ export default function Footer() {
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Jurídico</h2>
                         <ul className="text-gray-600 dark:text-gray-400">
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                                <a href="https://docs.google.com/document/d/1xLeiy8MbHKxVKRaOqfIpn4-ajYNBm-u8ADKmna6XFQQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:underline">Política de privacidade</a>
                             </li>
                         </ul>
                     </div>
+                    <div>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Conta</h2>
+                        <ul className="text-gray-600 dark:text-gray-400">
+                            <li className="mb-4">
+                            <a href="https://docs.google.com/document/d/1kHimEMyWmkboJ4uzNZnU9_Hji7-iKq0COfDGgQ532po/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:underline">Informações da conta</a>
+                            </li>
+                        </ul>
+                    </div>                    
                 </div>
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="sm:flex sm:items-center sm:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://ytalo.dev/" className="hover:underline">YtaloDev™</a>. Todos os direitos reservados.
+                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://ytalo.dev/" className="hover:underline">YtaloDev™</a>. Todos os direitos reservados.
                 </span>
                 <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                     <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
