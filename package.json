@@ -2,7 +2,7 @@
   "name": "ytalo",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ytalo.dev",
+  "homepage": "https://ytalotech.github.io/mercadotech/",
   "type": "module",
   "scripts": {
     "dev": "vite",
