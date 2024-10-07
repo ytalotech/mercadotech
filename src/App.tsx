@@ -1,36 +1,18 @@
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Localization from "./components/Localization";
-import Menu from "./components/Menu";
-import ModalPartners from "./components/ModalPartners";
-import Partners from "./components/Partners";
-import Services from "./components/Services";
+// App.tsx
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+// import Home from './Home';
+// import About from './About';
+import Home from './screens/home/Home';
+import Ads from './screens/ads/Ads';
 
-import './styles/main.css';
-
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <Menu />
-      {/* <Services /> */}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/ads" element={<Ads />} />
+    </Routes>
+  );
+};
 
-      <section id="contact">
-        <Contact />
-      </section>
-
-      <section id="localization">
-        <Localization />
-      </section>
-
-      {/* <section id="partners">
-        <Partners />
-      </section> */}
-
-      <ModalPartners />
-
-      <Footer />
-    </div>
-  )
-}
-
-export default App
+export default App;

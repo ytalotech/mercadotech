@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "server": "ts-node server.ts",
+    "start": "concurrently \"npm run dev\" \"npm run server\"",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -14,18 +16,24 @@
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
+    "express": "^4.21.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "^10.4.13",
+    "concurrently": "^9.0.1",
     "gh-pages": "^6.0.0",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.2",
-    "typescript": "^4.6.4",
+    "typescript": "^4.9.5",
     "vite": "^3.2.0"
   }
 }
