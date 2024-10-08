@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.ytalo.MercadoTech",
+        "sha256_cert_fingerprints": [
+          "4E:1C:ED:4B:B0:35:A6:75:2E:19:BF:EF:27:A7:31:E5:5B:74:A7:B2:67:1D:B8:A9:3A:8D:0D:91:59:48:9A:CA"
+        ]
+      }
+    }
+  ]
+  

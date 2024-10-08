@@ -6,8 +6,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "ts-node server.ts",
-    "start": "concurrently \"npm run dev\" \"npm run server\"",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
