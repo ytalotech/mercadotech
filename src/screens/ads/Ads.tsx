@@ -1,7 +1,6 @@
 const Ads: React.FC = () => {
     return (
-        <div className="App">
-        </div>
+        <div className="App"></div>
       )
   };
 
