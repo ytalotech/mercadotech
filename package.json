@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && cpx '.well-known/**/*' dist/.well-known",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "echo 'https://mercadotech.app' > dist/CNAME && gh-pages -d dist"
