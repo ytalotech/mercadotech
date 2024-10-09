@@ -1,13 +1,14 @@
 [
-    {
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.ytalo.MercadoTech",
-        "sha256_cert_fingerprints": [
-          "4E:1C:ED:4B:B0:35:A6:75:2E:19:BF:EF:27:A7:31:E5:5B:74:A7:B2:67:1D:B8:A9:3A:8D:0D:91:59:48:9A:CA"
-        ]
-      }
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ytalo.MercadoTech",
+      "sha256_cert_fingerprints": [
+        "BA:A6:DB:B1:C0:19:9E:30:68:68:74:24:EE:44:05:F4:E0:F6:64:5A:4D:63:C9:61:C1:F9:06:37:E0:7C:29:08"
+      ]
     }
-  ]
-  
+  }
+]
